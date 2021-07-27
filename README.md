@@ -4,7 +4,7 @@
 This repository contains HELM charts for different MongoDB products.
 The catalog of charts is currently :building_construction: *UNDER ACTIVE DEVELOPMENT*. 
 
-Anticipating _official Beta_ Fall 2021 at which point this Github repo will be the offical MongoDB 
+Anticipating _official Beta_ Fall 2021 at which point this Github repo will be the official MongoDB 
 Helm Chart source.
 
 ## Getting Started
