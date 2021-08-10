@@ -42,5 +42,5 @@ spec:
                   cpu: "4"
                   memory: 8G
                 requests:
-                  cpu: "1"
+                  cpu: 500m
                   memory: 2G
