@@ -26,4 +26,12 @@ spec:
       scramCredentialsSecretName: {{ .Release.Name }}-mongodb-scram-salt
   additionalMongodConfig:
     storage.wiredTiger.engineConfig.journalCompressor: zlib
-
+  statefulSet:
+    spec:
+      template:
+        spec:
+          nodeSelector:
+            workload_type: mongo
+          tolerations:
+          - key: workload_type
+            value: mongo
