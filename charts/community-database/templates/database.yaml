@@ -35,3 +35,12 @@ spec:
           tolerations:
           - key: workload_type
             value: mongo
+          containers:
+            - name: mongod
+              resources:
+                limits:
+                  cpu: "4"
+                  memory: 8G
+                requests:
+                  cpu: "1"
+                  memory: 2G
