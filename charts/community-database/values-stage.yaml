@@ -1,4 +1,4 @@
-replicas: 3
+replicas: 1
 mongodbVersion: "4.4.5"
 mongodbUsername: admin
 mongodbUserPassword: b6d80e7522b0

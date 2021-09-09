@@ -5,7 +5,7 @@ metadata:
   name: {{ .Release.Name }}
   namespace: {{ .Release.Namespace }}
 spec:
-  members: 3
+  members: {{ .Values.replicas }}
   type: ReplicaSet
   version: "{{ .Values.mongodbVersion }}"
   security:
