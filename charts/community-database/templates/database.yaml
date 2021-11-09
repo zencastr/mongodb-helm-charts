@@ -44,3 +44,8 @@ spec:
                 requests:
                   cpu: 500m
                   memory: 2G
+            - name: log-cleaner
+              image: zencastr.azurecr.io/mongodb-log-cleaner:21fceb7
+              volumeMounts:
+              - name: logs-volume
+                mountPath: /logs
